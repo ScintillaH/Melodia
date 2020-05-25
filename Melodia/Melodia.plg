@@ -1,0 +1,39 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Melodia - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\25477\AppData\Local\Temp\RSP1C82.tmp" with contents
+[
+/nologo /MTd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Melodia.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Projects\C++\Melodia\MelodiaDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\25477\AppData\Local\Temp\RSP1C82.tmp" 
+Creating temporary file "C:\Users\25477\AppData\Local\Temp\RSP1C83.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Melodia.pdb" /debug /machine:I386 /out:"Debug/Melodia.exe" /pdbtype:sept 
+".\Debug\Buttons.obj"
+".\Debug\Curves.obj"
+".\Debug\Login.obj"
+".\Debug\Melodia.obj"
+".\Debug\MelodiaDlg.obj"
+".\Debug\Register.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Melodia.res"
+]
+Creating command line "link.exe @C:\Users\25477\AppData\Local\Temp\RSP1C83.tmp"
+<h3>Output Window</h3>
+Compiling...
+MelodiaDlg.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Melodia.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

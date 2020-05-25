@@ -1,0 +1,296 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Melodia.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Melodia.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 Melodia"
+FONT 9, "宋体"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Melodia 1.0 版",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "版权所有 (C) 2019 MercedesPt",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "确定",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_MELODIA_DIALOG DIALOGEX 0, 0, 600, 400
+STYLE WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_VISIBLE | WS_CAPTION | 
+    WS_SYSMENU | WS_THICKFRAME
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Melodia"
+MENU IDR_MENU
+FONT 9, "宋体", 0, 0, 0x1
+BEGIN
+END
+
+IDD_LOGIN DIALOG DISCARDABLE  0, 0, 144, 80
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "登录"
+FONT 10, "微软雅黑"
+BEGIN
+    EDITTEXT        IDC_USERNAME,40,10,95,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_PASSWORD,40,35,95,12,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    NOT WS_BORDER
+    DEFPUSHBUTTON   "登录",IDOK,10,55,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,80,55,50,14,BS_FLAT
+    LTEXT           "用户名",IDC_STATIC,10,10,25,10,SS_CENTERIMAGE
+    LTEXT           "密码",IDC_STATIC,10,35,25,10,SS_CENTERIMAGE
+END
+
+IDD_REGISTER DIALOG DISCARDABLE  0, 0, 144, 100
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "注册"
+FONT 10, "微软雅黑"
+BEGIN
+    EDITTEXT        IDC_USERNAME,40,10,95,12,ES_AUTOHSCROLL | NOT WS_BORDER
+    EDITTEXT        IDC_PASSWORD,40,30,95,12,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    NOT WS_BORDER
+    EDITTEXT        IDC_CONFIRM,40,50,95,12,ES_PASSWORD | ES_AUTOHSCROLL | 
+                    NOT WS_BORDER
+    DEFPUSHBUTTON   "注册",IDOK,10,75,50,14,BS_FLAT
+    PUSHBUTTON      "取消",IDCANCEL,80,75,50,14,BS_FLAT
+    LTEXT           "用户名",IDC_STATIC,10,10,25,10,SS_CENTERIMAGE
+    LTEXT           "密码",IDC_STATIC,10,30,25,10,SS_CENTERIMAGE
+    LTEXT           "确认密码",IDC_STATIC,10,50,30,10,SS_CENTERIMAGE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Melodia Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Melodia\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2019 MercedesPt\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Melodia.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "Melodia 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_LOGIN, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 137
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 73
+    END
+
+    IDD_REGISTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 137
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 93
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU MENU DISCARDABLE 
+BEGIN
+    POPUP "界面跳转(&L)"
+    BEGIN
+        MENUITEM "开始界面",                    ID_LEAP_START
+        MENUITEM "歌曲选择",                    ID_LEAP_SELECT
+    END
+    POPUP "显示(&D)"
+    BEGIN
+        MENUITEM "FPS",                         ID_DISPLAY_FPS
+        POPUP "窗口大小"
+        BEGIN
+            MENUITEM "960×720",                    ID_DISPLAY_RESOLUTION1
+            MENUITEM "1200×800",                   ID_DISPLAY_RESOLUTION2
+            MENUITEM "1920×800",                   ID_DISPLAY_RESOLUTION3
+        END
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于(&A)",                    ID_HELP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_SETTINGS_NORMAL     BITMAP  DISCARDABLE     "res\\picture\\BtnSettingsNormal.bmp"
+IDB_SETTINGS_FOCUS      BITMAP  DISCARDABLE     "res\\picture\\BtnSettingsFocus.bmp"
+IDB_EXIT_NORMAL         BITMAP  DISCARDABLE     "res\\picture\\BtnExitNormal.bmp"
+IDB_EXIT_FOCUS          BITMAP  DISCARDABLE     "res\\picture\\BtnExitFocus.bmp"
+IDB_PREV_NORMAL         BITMAP  DISCARDABLE     "res\\picture\\BtnPrevNormal.bmp"
+IDB_PREV_FOCUS          BITMAP  DISCARDABLE     "res\\picture\\BtnPrevFocus.bmp"
+IDB_NEXT_NORMAL         BITMAP  DISCARDABLE     "res\\picture\\BtnNextNormal.bmp"
+IDB_NEXT_FOCUS          BITMAP  DISCARDABLE     "res\\picture\\BtnNextFocus.bmp"
+IDB_START_NORMAL        BITMAP  DISCARDABLE     "res\\picture\\BtnStartNormal.bmp"
+IDB_START_FOCUS         BITMAP  DISCARDABLE     "res\\picture\\BtnStartFocus.bmp"
+IDB_BACK_NORMAL         BITMAP  DISCARDABLE     "res\\picture\\BtnBackNormal.bmp"
+IDB_BACK_FOCUS          BITMAP  DISCARDABLE     "res\\picture\\BtnBackFocus.bmp"
+IDB_BACKGROUND          BITMAP  DISCARDABLE     "res\\picture\\Background.bmp"
+IDB_TRACK               BITMAP  DISCARDABLE     "res\\picture\\Track.bmp"
+IDB_HELP                BITMAP  DISCARDABLE     "res\\picture\\Help.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "关于 Melodia(&A)..."
+END
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\Melodia.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
