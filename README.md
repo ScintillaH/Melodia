@@ -1,7 +1,8 @@
 # Melodia
 使用MFC制作的音乐游戏与其谱面编辑器。<br>
-详细设计思路与代码描述请见 [项目介绍](https://github.com/MercedesPt/Melodia/blob/master/%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.pdf)。<br>
-流程演示请见 [演示视频](https://www.bilibili.com/video/BV1RJ411M7Ji)。
+详细设计思路与代码描述请见[项目介绍](https://github.com/MercedesPt/Melodia/blob/master/%E9%A1%B9%E7%9B%AE%E4%BB%8B%E7%BB%8D.pdf)。<br>
+流程演示请见[演示视频](https://www.bilibili.com/video/BV1RJ411M7Ji)。<br>
+> 该项目为个人MFC程序设计项目作业，仅供学习参考使用，请勿将项目内的美术资源用于商业用途，请勿在自己的程序设计作业中抄袭。
 ## Melodia
 游戏本体。八轨下落式音游。目前包含三首曲目：Parousia`简单` | The Last Illusion`中等` | REQUIEM`困难`<br>
 使用`A` `S` `D` `F` `J` `K` `L` `;`八个按键分别击打八个轨道中的音符。
